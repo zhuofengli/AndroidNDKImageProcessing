@@ -174,13 +174,13 @@ int rotate(int pix[], int *targetW, int *targetH, int orientation){
             
         case 2:
         {
-            ret = rotate180(pix, &targetW, &targetH);
+            ret = rotate180(pix, targetW, targetH);
             break;
         }
             
         case 3:
         {
-            ret = rotate270(pix, &targetW, &targetH);
+            ret = rotate270(pix, targetW, targetH);
             break;
         }
             
